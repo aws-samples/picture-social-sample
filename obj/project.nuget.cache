@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xfrt4zMoqY9iaFNZ2i2Pzz3SsTHGowyKy3cp48PtvB2ibeDIByCCaEEmKQed/mvnIg9Ws/OpTURAzsUuVfVdBw==",
+  "success": true,
+  "projectFilePath": "/Users/yapu/Documents/Proyectios/PictureSocial/back/Pictures/Pictures.csproj",
+  "expectedPackageFiles": [
+    "/Users/yapu/.nuget/packages/awssdk.core/3.7.6.4/awssdk.core.3.7.6.4.nupkg.sha512",
+    "/Users/yapu/.nuget/packages/awssdk.rekognition/3.7.7.11/awssdk.rekognition.3.7.7.11.nupkg.sha512",
+    "/Users/yapu/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/yapu/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/yapu/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.22/microsoft.netcore.app.host.osx-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
