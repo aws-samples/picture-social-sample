@@ -5,8 +5,8 @@ This first episode is about containerizing an API developed in C# using .NET 6 t
 
 Be sure to:
 
-* Check our blog post: 
-* And Youtube video: 
+* Check our blog post: https://bit.ly/3MrneKU
+* And Youtube video: https://bit.ly/3MvWA3B
 
 ## Security
 
