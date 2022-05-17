@@ -1,0 +1,44 @@
+#########################
+# Definicion de las POD
+#########################
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helloworld
+  labels:
+    app: helloworld
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: helloworld
+  template:
+    metadata:
+      labels:
+        app: helloworld
+    spec:
+      containers:
+      - name: helloworld
+        image: 111122223333.dkr.ecr.us-east-1.amazonaws.com/helloworld
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+---
+#########################
+# Definicion del servicio
+#########################
+kind: Service
+apiVersion: v1
+metadata:
+  name: helloworld-lb
+spec:
+  selector:
+    app: helloworld
+  ports:
+  - port: 80
+    targetPort: 5111
+  type: LoadBalancer
