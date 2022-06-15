@@ -1,0 +1,3 @@
+ 1166  dotnet add package AWSSDK.SecurityToken
+ 1167  dotnet add package AWSSDK.Core
+ 1169  dotnet add package AWSSDK.Rekognition
