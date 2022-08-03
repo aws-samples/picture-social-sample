@@ -18,7 +18,7 @@ spec:
       labels:
         app: pictures
     spec:
-      serviceAccountName: serviceaccount
+      serviceAccountName: pictures-sa
       containers:
       - name: pictures
         image: 111122223333.dkr.ecr.us-east-1.amazonaws.com/pictures
