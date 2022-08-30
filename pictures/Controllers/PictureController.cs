@@ -1,14 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Amazon.Rekognition;
 using Amazon.Rekognition.Model;
 using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.DataModel;
-using Amazon.DynamoDBv2.Model;
-using System.Diagnostics;
 
 namespace pictures.Controllers;
 
