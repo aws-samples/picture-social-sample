@@ -72,6 +72,14 @@ public class PictureController : ControllerBase
         return model;
     }
 
+    [HttpGet("all")]
+    public async Task<IEnumerable<PictureTable>> ReadAll()
+    {
+        var conditions = new List<ScanCondition>();
+        var list = await context.ScanAsync<PictureTable>(conditions).GetRemainingAsync();
+        return list;
+    }
+
     [HttpDelete("{id}")]
     public async Task<bool> Delete(string id)
     {
